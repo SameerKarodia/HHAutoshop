@@ -1,0 +1,47 @@
+.detailingPage{
+    margin-top:120px;
+    padding:5%;
+}
+.backButton{
+    font-size:1.5rem;
+    border-radius: 10px;
+    padding:2%;
+}
+.backLink{
+    color:#000;
+    text-decoration:none;
+}
+.detailingContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.interiorDetailing, .exteriorDetailing{
+    display:flex;
+    flex-direction:column;
+    /* align-items:center; */
+    margin-top:20px;
+    border:2px solid black;
+    padding:5%;
+    width:100%;
+    max-width:1000px;
+    height:auto;
+
+
+}
+.interiorDetailing li, .exteriorDetailing li{
+    margin-top:5%;
+}
+
+
+/* styling for booknow Button */
+.bookButton{
+    padding: 5%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+}

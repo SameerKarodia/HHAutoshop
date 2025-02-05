@@ -1,0 +1,15 @@
+.HHlogo{
+    border-radius: 50%;
+    width:100%;
+    margin-bottom:10%;
+
+}
+.footerBox{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:5%;
+    margin-top:5%;
+
+}

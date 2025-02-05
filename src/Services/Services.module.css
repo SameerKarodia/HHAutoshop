@@ -1,0 +1,51 @@
+.cardBox{
+    box-shadow: #000 0px 0px 10px;
+    margin-bottom:3vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+    border-radius: 15px;
+    background-color: #ededed;
+
+
+}
+.cardImg img{
+    display:flex;
+    height:auto;
+    width: 80vw;
+    border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+    object-fit:contain;
+
+
+}
+.cardText{
+    color:#000;
+    padding:5%;
+    display:flex;
+    width:80vw;
+    flex-direction:column;
+    height:auto;
+    border : 1px solid #000;
+    border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;}
+
+.cardText h1,h6{
+    margin-bottom: 5%;
+}
+.cardText a{
+    text-decoration: underline #000;
+    color:#000;
+}
+
+.bookButton{
+    padding: 5%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+}

@@ -1,0 +1,76 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10%;
+	background-color: #ededed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+}
+
+.header a {
+	text-decoration: none;
+	color: #044368;
+}
+
+.header h1 {
+	font-size: 1.7rem;
+	font-weight: bolder;
+	/* padding-top: 5px; */
+}
+
+/* Nav Bar Styling */
+.nav {
+	position: relative; /* Ensures dropdown is positioned relative to nav */
+	display: flex;
+	align-items: center;
+}
+
+/* Menu Hidden by Default */
+.menu {
+	display: none;
+	flex-direction: column;
+	position: absolute; /* Allows dropdown to appear below button */
+	top: 100%;
+	right: 0;
+	background-color: #081b29;
+	width: 200px; /* Adjust width */
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Show Menu When Active */
+.menu.active {
+	display: flex;
+}
+
+/* Menu Links */
+.menu a{
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Hover Effect */
+.menu a:hover {
+	background-color: #055684;
+}
+
+/* Menu Button */
+.menutoggle {
+	display: block;
+	color: #ededed;
+	background-color: #055684;
+	border-radius: 5px;
+	padding: 10px 15px; /* Fixes oversized padding */
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
