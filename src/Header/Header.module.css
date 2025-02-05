@@ -3,12 +3,12 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 10%;
+	padding:5%;
 	background-color: #ededed;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	z-index: 1000;
+	z-index:100;
 }
 
 .header a {
@@ -69,7 +69,7 @@
 	color: #ededed;
 	background-color: #055684;
 	border-radius: 5px;
-	padding: 10px 15px; /* Fixes oversized padding */
+	padding: 10px 15px; 
 	font-weight: bold;
 	border: none;
 	cursor: pointer;
