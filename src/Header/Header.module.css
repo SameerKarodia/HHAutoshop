@@ -19,7 +19,6 @@
 .header h1 {
 	font-size: 1.7rem;
 	font-weight: bolder;
-	/* padding-top: 5px; */
 }
 
 /* Nav Bar Styling */
@@ -29,15 +28,19 @@
 	align-items: center;
 }
 
+.navBig {
+	display: none;
+}
+
 /* Menu Hidden by Default */
 .menu {
 	display: none;
 	flex-direction: column;
-	position: absolute; /* Allows dropdown to appear below button */
+	position: absolute;
 	top: 100%;
 	right: 0;
 	background-color: #081b29;
-	width: 200px; /* Adjust width */
+	width: 200px; 
 	padding: 10px;
 	border-radius: 5px;
 	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
@@ -73,4 +76,22 @@
 	font-weight: bold;
 	border: none;
 	cursor: pointer;
+}
+
+@media (min-width:800px) {
+	.header {
+		padding:2%;
+	}
+	.header h1{
+		font-size: 2rem;
+	}
+	.nav{
+		display:none;
+	}
+	.navBig{
+		display:flex;
+		flex-direction: row;
+		gap:30px;
+		font-size: 1.5rem;
+	}
 }

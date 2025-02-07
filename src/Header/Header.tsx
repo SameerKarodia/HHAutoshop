@@ -23,6 +23,11 @@ function Header() {
           <Link to="/Lights">Lights</Link>
         </div>
       </nav>
+      <nav className={styles.navBig}>
+        <Link to="/Detailing">Detailing</Link>
+        <Link to="/Brakes">Brakes</Link>
+        <Link to="/Lights">Lights</Link>
+      </nav>
     </header>
   );
 }
