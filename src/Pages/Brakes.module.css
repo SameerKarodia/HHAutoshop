@@ -1,7 +1,7 @@
 
 .brakesPage{
-    margin-top:115px;
-    margin-bottom:100px;
+    
+    margin-top:80px;
     padding:5%;
     height:95vh;
 }
@@ -20,16 +20,32 @@
 .brakesContainer{
     display:flex;
     flex-direction:column;
-    /* align-items:center; */
     margin-top:5px;
+    width:100%;
+    max-width:1000px;
+    height:auto;
+
     
+}
+
+.standardBrakes, .premiumBrakes{
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
     border:2px solid black;
+    border-radius:10px;
     padding:5%;
     width:100%;
     max-width:1000px;
     height:auto;
     
 }
+.standardBrakes img, .premiumBrakes img{
+    border:3px solid black;
+    margin-bottom:5%;
+    border-radius: 10px;
+}
+
 
 .brakesContainer li{
     margin-top:2%;

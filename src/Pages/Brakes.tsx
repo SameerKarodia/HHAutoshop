@@ -8,6 +8,10 @@ import brakes2 from "../assets/brakes2.png";
 import brakes3 from "../assets/brakes3.png";
 
 const BRAKES = [brakes1, brakes2, brakes3];
+<div className={slidestyles.imageSlider}>
+  <ImageSlider imageUrls={BRAKES} />
+</div>;
+
 function Brakes() {
   return (
     <div>
@@ -20,18 +24,30 @@ function Brakes() {
         </button>
         <h1>Brakes</h1>
         <div className={styles.brakesContainer}>
-          <h2>Brake Package</h2>
-          <h4>Smooth Stops, Safe Drives</h4>
-          <div className={slidestyles.imageSlider}>
-            <ImageSlider imageUrls={BRAKES} />
+          <div className={styles.standardBrakes}>
+            <h2>Standard Package</h2>
+            <img src={brakes3} alt="brakes" />
+            <h5>Price: $$$</h5>
+            <ul>
+              <li>Brake Pad Resurfacing</li>
+              <li>Brake Fluid Top-Up</li>
+              <li>Brake system inspection (rotors, calipers, and lines)</li>
+            </ul>
+            <button className={styles.bookButton}>Book Now</button>
           </div>
-          <h5>Price: $$$</h5>
-          <ul>
-            <li>Brake Pad Replacement</li>
-            <li>Brake Rotor Resurfacing & Replacement</li>
-            <li>Brake Caliper & Hardware Services</li>
-          </ul>
-          <button className={styles.bookButton}>Book Now</button>
+          <div className={styles.premiumBrakes}>
+            <h2>Premium Package</h2>
+            <img src={brakes1} alt="brakes" />
+
+            <h5>Price: $$$</h5>
+            <ul>
+              <li>Full rotor replacement (front and rear as needed)</li>
+              <li>Brake pad replacement</li>
+              <li>Slider pin service</li>
+              <li>Full brake fluid flush</li>
+            </ul>
+            <button className={styles.bookButton}>Book Now</button>
+          </div>
         </div>
       </div>
     </div>

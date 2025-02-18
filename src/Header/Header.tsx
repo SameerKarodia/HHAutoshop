@@ -21,12 +21,16 @@ function Header() {
           <Link to="/Detailing">Detailing</Link>
           <Link to="/Brakes">Brakes</Link>
           <Link to="/Lights">Lights</Link>
+          <Link to="/Tuneups">Tuneups</Link>
+          <Link to="/OilChange">Oil Change</Link>
         </div>
       </nav>
       <nav className={styles.navBig}>
         <Link to="/Detailing">Detailing</Link>
         <Link to="/Brakes">Brakes</Link>
         <Link to="/Lights">Lights</Link>
+        <Link to="/Tuneups">Tuneups</Link>
+        <Link to="/OilChange">Oil Change</Link>
       </nav>
     </header>
   );

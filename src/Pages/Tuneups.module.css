@@ -1,0 +1,59 @@
+.tuneupsPage{
+    margin-top:80px;
+    padding:5%;
+    
+}
+.backButton{
+    font-size:1.5rem;
+    border-radius: 10px;
+    padding:2%;
+}
+.backLink{
+    color:#000;
+    text-decoration:none;
+}
+.tuneupsContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.standardTuneups{
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+    border:2px solid black;
+    border-radius:10px;
+    padding:3%;
+    width:100%;
+    max-width:1000px;
+    height:auto;
+
+
+
+}
+.standardTuneups img{
+    border:3px solid black;
+    margin-bottom:5%;
+    margin-top:5%;
+    border-radius: 10px;
+    
+}
+
+
+.standardTuneups li{
+    margin-top:5%;
+}
+
+
+/* styling for booknow Button */
+.bookButton{
+    padding: 5%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+}

@@ -26,7 +26,7 @@ function Services() {
       <ServicesProp
         image={TuneupsPic}
         name="Tune-Ups"
-        description="Masic Maintenance & Tune-Ups"
+        description="Basic Maintenance & Tune-Ups"
         moreinfo="/TuneUps"
         booknow="Book Now"
       />
