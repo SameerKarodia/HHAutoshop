@@ -5,9 +5,8 @@ import { Link } from "react-router-dom";
 import styles from "./Brakes.module.css";
 import brakes1 from "../assets/brakes1.png";
 import brakes2 from "../assets/brakes2.png";
-import brakes3 from "../assets/brakes3.png";
 
-const BRAKES = [brakes1, brakes2, brakes3];
+const BRAKES = [brakes1, brakes2];
 <div className={slidestyles.imageSlider}>
   <ImageSlider imageUrls={BRAKES} />
 </div>;
@@ -23,10 +22,13 @@ function Brakes() {
           </Link>
         </button>
         <h1>Brakes</h1>
+        <h6>(Parts pricing not included)</h6>
+
         <div className={styles.brakesContainer}>
           <div className={styles.standardBrakes}>
             <h2>Standard Package</h2>
-            <img src={brakes3} alt="brakes" />
+
+            <img src={brakes2} alt="brakes" />
             <h5>Price: $$$</h5>
             <ul>
               <li>Brake Pad Resurfacing</li>

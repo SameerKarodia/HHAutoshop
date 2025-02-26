@@ -5,7 +5,7 @@
     padding:5%;
     height:95vh;
 }
-.brakesPage h1{
+.brakesPage h1, .brakesPage h6{
     text-align:center;
 }
 .backButton{

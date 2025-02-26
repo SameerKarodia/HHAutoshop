@@ -66,8 +66,9 @@ function Detailing() {
               <li>Streak-Free Window Cleaning (Inside & Out)</li>
               <li>Headlight & Taillight Polishing</li>
               <li>Full Interior Shampoo</li>
+              <li>Steam Cleaning</li>
               <li>Bug, Tar, and Road Grime Removal</li>
-              <li>Paint Chip & Scratch Repair</li>
+              <li>Paint Correction</li>
               <li>Clay Bar Treatment for Paint Decontamination</li>
               <li>Engine Bay Cleaning </li>(Silver Package Services Included)
             </ul>

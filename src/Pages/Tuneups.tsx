@@ -16,9 +16,12 @@ function Tuneups() {
 
         <div className={styles.tuneupsContainer}>
           <h1>Tune Ups</h1>
+          <h6>(Parts not included)</h6>
+
           <div className={styles.standardTuneups}>
             <h2>Standard Package</h2>
             <h4>(Depends on needs)</h4>
+
             <img src={sparkplugsPic} alt="brakes" />
             <h5>Price: $$$</h5>
             <ul>

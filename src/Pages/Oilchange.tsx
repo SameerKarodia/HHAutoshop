@@ -18,8 +18,11 @@ function Oilchange() {
 
         <div className={styles.oilchangeContainer}>
           <h1>Oil Change</h1>
+          <h6>(Parts pricing not included)</h6>
+
           <div className={styles.standardOilchange}>
             <h2>Standard Package</h2>
+
             <img src={bmwoilchangePic} alt="brakes" />
             <h5>Price: $$$</h5>
             <ul>
