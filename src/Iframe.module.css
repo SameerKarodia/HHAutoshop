@@ -1,0 +1,22 @@
+.bookButton {
+    padding: 5%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+  }
+  
+  .bookButton:hover {
+    background-color: #333; /* Darker color on hover */
+  }
+  
+  /* Move button to a specific position */
+  /* .bookButtonFixed {
+    position: fixed;
+    bottom: 50px; 
+    right: 50px; 
+    z-index: 1000;
+  }
+   */

@@ -2,6 +2,7 @@ import Header from "../Header/Header";
 import styles from "./Tuneups.module.css";
 import { Link } from "react-router-dom";
 import sparkplugsPic from "../assets/sparkplugsPic.png";
+import Iframe from "../Iframe";
 
 function Tuneups() {
   return (
@@ -16,7 +17,7 @@ function Tuneups() {
 
         <div className={styles.tuneupsContainer}>
           <h1>Tune Ups</h1>
-          <h6>(Parts not included)</h6>
+          <h6>(Parts pricing not included)</h6>
 
           <div className={styles.standardTuneups}>
             <h2>Standard Package</h2>
@@ -30,7 +31,7 @@ function Tuneups() {
               <li>Air Filter Replacement</li>
               <li>Fuel Filter Replacement & Basic Maintenance</li>
             </ul>
-            <button className={styles.bookButton}>Book Now</button>
+            <Iframe />
           </div>
         </div>
       </div>

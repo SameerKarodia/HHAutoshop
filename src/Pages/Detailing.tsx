@@ -8,6 +8,7 @@ import interior11 from "../assets/interior11.jpg";
 import interior12 from "../assets/interior12.jpg";
 import exterior11 from "../assets/exterior11.jpg";
 import engine10 from "../assets/engine10.png";
+import Iframe from "../Iframe";
 
 const INTERIOR = [interior10, interior11, interior12];
 <div className={slidestyles.imageSlider}>
@@ -36,7 +37,9 @@ function Detailing() {
               <li>Interior Vacuuming (Seats and Carpets)</li>
               <li>Air Freshener Application</li>
             </ul>
-            <button className={styles.bookButton}>Book Now</button>
+            <Iframe />
+
+            {/* <button className={styles.bookButton}>Book Now</button> */}
           </div>
           <div className={styles.silverDetailing}>
             <h2>Silver Package</h2>
@@ -54,8 +57,9 @@ function Detailing() {
               <li>Tire Shine Application </li>
               (Includes Bronze Package Services)
             </ul>
+            <Iframe />
 
-            <button className={styles.bookButton}>Book Now</button>
+            {/* <button className={styles.bookButton}>Book Now</button> */}
           </div>
           <div className={styles.goldDetailing}>
             <h2>Gold Package</h2>
@@ -72,7 +76,10 @@ function Detailing() {
               <li>Clay Bar Treatment for Paint Decontamination</li>
               <li>Engine Bay Cleaning </li>(Silver Package Services Included)
             </ul>
-            <button className={styles.bookButton}>Book Now</button>
+            {/* <div className={styles.bookButtontest}>
+              <Iframe />
+            </div> */}
+            <Iframe />
           </div>
         </div>
       </div>

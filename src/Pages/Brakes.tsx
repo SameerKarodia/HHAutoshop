@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import styles from "./Brakes.module.css";
 import brakes1 from "../assets/brakes1.png";
 import brakes2 from "../assets/brakes2.png";
+import Iframe from "../Iframe";
 
 const BRAKES = [brakes1, brakes2];
 <div className={slidestyles.imageSlider}>
@@ -35,7 +36,7 @@ function Brakes() {
               <li>Brake Fluid Top-Up</li>
               <li>Brake system inspection (rotors, calipers, and lines)</li>
             </ul>
-            <button className={styles.bookButton}>Book Now</button>
+            <Iframe />
           </div>
           <div className={styles.premiumBrakes}>
             <h2>Premium Package</h2>
@@ -48,7 +49,7 @@ function Brakes() {
               <li>Slider pin service</li>
               <li>Full brake fluid flush</li>
             </ul>
-            <button className={styles.bookButton}>Book Now</button>
+            <Iframe />
           </div>
         </div>
       </div>
