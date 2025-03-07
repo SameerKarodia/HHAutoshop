@@ -24,14 +24,14 @@ function Tuneups() {
             <h4>(Depends on needs)</h4>
 
             <img src={sparkplugsPic} alt="brakes" />
-            <h5>Price: $$$</h5>
+            <h5>Starting from $50</h5>
             <ul>
               <li>Spark Plug Replacement </li>
               <li> Ignition Coil Replacement</li>
               <li>Air Filter Replacement</li>
               <li>Fuel Filter Replacement & Basic Maintenance</li>
             </ul>
-            <Iframe />
+            <Iframe url="https://calendly.com/sameerkarodia/detailing" />
           </div>
         </div>
       </div>

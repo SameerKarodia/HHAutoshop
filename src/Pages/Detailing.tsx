@@ -31,13 +31,13 @@ function Detailing() {
             <h2>Bronze Package</h2>
             <h4>Basic Clean & Shine</h4>
             <img src={exterior11} alt="exterior" />
-            <h5>Price:$$$</h5>
+            <h5>Starting from $120</h5>
             <ul>
               <li>Exterior Hand Wash & Dry</li>
               <li>Interior Vacuuming (Seats and Carpets)</li>
               <li>Air Freshener Application</li>
             </ul>
-            <Iframe />
+            <Iframe url="https://calendly.com/sameerkarodia/detailing" />
 
             {/* <button className={styles.bookButton}>Book Now</button> */}
           </div>
@@ -47,7 +47,7 @@ function Detailing() {
             <div className={slidestyles.imageSlider}>
               <ImageSlider imageUrls={INTERIOR} />
             </div>
-            <h5>Price:$$$</h5>
+            <h5>Starting from $230</h5>
             <ul>
               <li>
                 Interior Dusting & Wipe down (Door Jams, Dashboard, Console)
@@ -57,7 +57,7 @@ function Detailing() {
               <li>Tire Shine Application </li>
               (Includes Bronze Package Services)
             </ul>
-            <Iframe />
+            <Iframe url="https://calendly.com/sameerkarodia/detailing" />
 
             {/* <button className={styles.bookButton}>Book Now</button> */}
           </div>
@@ -65,7 +65,7 @@ function Detailing() {
             <h2>Gold Package</h2>
             <h4>Full Detail and Restoration</h4>
             <img src={engine10} alt="engine" />
-            <h5>Price:$$$</h5>
+            <h5>Starting from $350</h5>
             <ul>
               <li>Streak-Free Window Cleaning (Inside & Out)</li>
               <li>Headlight & Taillight Polishing</li>
@@ -79,7 +79,7 @@ function Detailing() {
             {/* <div className={styles.bookButtontest}>
               <Iframe />
             </div> */}
-            <Iframe />
+            <Iframe url="https://calendly.com/sameerkarodia/detailing" />
           </div>
         </div>
       </div>

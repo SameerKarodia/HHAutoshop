@@ -30,26 +30,26 @@ function Brakes() {
             <h2>Standard Package</h2>
 
             <img src={brakes2} alt="brakes" />
-            <h5>Price: $$$</h5>
+            <h5>Starting from $120</h5>
             <ul>
               <li>Brake Pad Resurfacing</li>
               <li>Brake Fluid Top-Up</li>
               <li>Brake system inspection (rotors, calipers, and lines)</li>
             </ul>
-            <Iframe />
+            <Iframe url="https://calendly.com/sameerkarodia/30min" />
           </div>
           <div className={styles.premiumBrakes}>
             <h2>Premium Package</h2>
             <img src={brakes1} alt="brakes" />
 
-            <h5>Price: $$$</h5>
+            <h5>Starting from $120</h5>
             <ul>
               <li>Full rotor replacement (front and rear as needed)</li>
               <li>Brake pad replacement</li>
               <li>Slider pin service</li>
               <li>Full brake fluid flush</li>
             </ul>
-            <Iframe />
+            <Iframe url="https://calendly.com/sameerkarodia/30min" />
           </div>
         </div>
       </div>

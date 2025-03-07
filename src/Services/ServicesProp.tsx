@@ -1,12 +1,13 @@
 import styles from "./Services.module.css";
 import { Link } from "react-router-dom";
+import Iframe from "../Iframe";
 
 interface ServicesPropProps {
   image: string;
   name: string;
   description: string;
   moreinfo: string;
-  booknow: string;
+  url: string;
 }
 
 function ServicesProp(props: ServicesPropProps) {
@@ -23,7 +24,8 @@ function ServicesProp(props: ServicesPropProps) {
           <h6>More Info</h6>
         </Link>
 
-        <button className={styles.bookButton}>{props.booknow}</button>
+        {/* <button className={styles.bookButton}>{props.booknow}</button> */}
+        <Iframe url={props.url} />
       </div>
     </div>
   );

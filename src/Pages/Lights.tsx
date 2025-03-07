@@ -26,13 +26,13 @@ function Lights() {
           <div className={slidestyles.imageSlider}>
             <ImageSlider imageUrls={LIGHTS} />
           </div>
-          <h5>Price: $$$</h5>
+          <h5>Starting from $20</h5>
           <ul>
             <li>Brake Pad Replacement</li>
             <li>Brake Rotor Resurfacing & Replacement</li>
             <li>Brake Caliper & Hardware Services</li>
           </ul>
-          <Iframe />
+          <Iframe url="https://calendly.com/sameerkarodia/detailing" />
         </div>
       </div>
     </div>
