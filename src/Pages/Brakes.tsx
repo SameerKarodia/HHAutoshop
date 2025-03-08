@@ -36,7 +36,7 @@ function Brakes() {
               <li>Brake Fluid Top-Up</li>
               <li>Brake system inspection (rotors, calipers, and lines)</li>
             </ul>
-            <Iframe url="https://calendly.com/sameerkarodia/30min" />
+            <Iframe url="https://calendly.com/hhautoshop04/brakes" />
           </div>
           <div className={styles.premiumBrakes}>
             <h2>Premium Package</h2>
@@ -49,7 +49,7 @@ function Brakes() {
               <li>Slider pin service</li>
               <li>Full brake fluid flush</li>
             </ul>
-            <Iframe url="https://calendly.com/sameerkarodia/30min" />
+            <Iframe url="https://calendly.com/hhautoshop04/brakes" />
           </div>
         </div>
       </div>

@@ -28,11 +28,11 @@ function Lights() {
           </div>
           <h5>Starting from $20</h5>
           <ul>
-            <li>Brake Pad Replacement</li>
-            <li>Brake Rotor Resurfacing & Replacement</li>
-            <li>Brake Caliper & Hardware Services</li>
+            <li>LED High Beams</li>
+            <li>LED Low Beams</li>
+            <li>LED Fog Lights</li>
           </ul>
-          <Iframe url="https://calendly.com/sameerkarodia/detailing" />
+          <Iframe url="https://calendly.com/hhautoshop04/lights" />
         </div>
       </div>
     </div>

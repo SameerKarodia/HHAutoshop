@@ -37,7 +37,7 @@ function Detailing() {
               <li>Interior Vacuuming (Seats and Carpets)</li>
               <li>Air Freshener Application</li>
             </ul>
-            <Iframe url="https://calendly.com/sameerkarodia/detailing" />
+            <Iframe url="https://calendly.com/hhautoshop04/detailing" />
 
             {/* <button className={styles.bookButton}>Book Now</button> */}
           </div>
@@ -57,7 +57,7 @@ function Detailing() {
               <li>Tire Shine Application </li>
               (Includes Bronze Package Services)
             </ul>
-            <Iframe url="https://calendly.com/sameerkarodia/detailing" />
+            <Iframe url="https://calendly.com/hhautoshop04/detailing" />
 
             {/* <button className={styles.bookButton}>Book Now</button> */}
           </div>
@@ -79,7 +79,7 @@ function Detailing() {
             {/* <div className={styles.bookButtontest}>
               <Iframe />
             </div> */}
-            <Iframe url="https://calendly.com/sameerkarodia/detailing" />
+            <Iframe url="https://calendly.com/hhautoshop04/detailing" />
           </div>
         </div>
       </div>
