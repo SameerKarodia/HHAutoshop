@@ -44,8 +44,11 @@
 /* ---- MEDIA QUERY FOR SCREENS 800px AND LARGER ---- */
 @media (min-width: 650px) {
     .infoContainer {
-        height: 100vh; /* Keeps full height */
-        grid-template-rows: auto auto auto;
+        height: 100vh; 
+        /* grid-template-rows: auto auto auto; */
+        display:flex;
+        justify-content:center;
+        align-items:center;
     background-size:contain; 
 
     }

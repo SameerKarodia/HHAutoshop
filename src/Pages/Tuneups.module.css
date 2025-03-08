@@ -1,6 +1,7 @@
 .tuneupsPage{
     margin-top:80px;
     padding:5%;
+    background-color: #d9d9d9;
     
 }
 .backButton{
@@ -24,6 +25,8 @@
     flex-direction:column;
     margin-top:20px;
     border:2px solid black;
+    background-color: #ededed;
+    box-shadow: #000 0px 0px 20px;
     border-radius:10px;
     padding:3%;
     width:100%;

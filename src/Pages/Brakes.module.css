@@ -3,7 +3,10 @@
     
     margin-top:80px;
     padding:5%;
-    height:95vh;
+    height:100vh;
+    background-color: #d9d9d9;
+
+    
 }
 .brakesPage h1, .brakesPage h6{
     text-align:center;
@@ -24,6 +27,7 @@
     width:100%;
     max-width:1000px;
     height:auto;
+    
 
     
 }
@@ -38,6 +42,9 @@
     width:100%;
     max-width:1000px;
     height:auto;
+    background-color: #ededed;
+    box-shadow: #000 0px 0px 25px;
+
     
 }
 .standardBrakes img, .premiumBrakes img{

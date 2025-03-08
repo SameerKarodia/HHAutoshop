@@ -1,6 +1,7 @@
 .oilchangePage{
     margin-top:80px;
     padding:5%;
+    background-color: #d9d9d9;
     
 }
 .backButton{
@@ -29,7 +30,9 @@
     width:100%;
     max-width:1000px;
     height:auto;
-    background-color:#cfcdcd;
+    background-color:#ededed;
+    box-shadow: #000 0px 0px 20px;
+
 
 
 
