@@ -25,8 +25,9 @@ function Detailing() {
             Back
           </Link>
         </button>
+        <h1>Detailing</h1>
+
         <div className={styles.detailingContainer}>
-          <h1>Detailing</h1>
           <div className={styles.bronzeDetailing}>
             <h2>Bronze Package</h2>
             <h4>Basic Clean & Shine</h4>

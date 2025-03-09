@@ -3,7 +3,6 @@
     
     margin-top:80px;
     padding:5%;
-    height:100vh;
     background-color: #d9d9d9;
 
     
@@ -24,12 +23,7 @@
     display:flex;
     flex-direction:column;
     margin-top:5px;
-    width:100%;
-    max-width:1000px;
-    height:auto;
-    
-
-    
+    align-items:center;
 }
 
 .standardBrakes, .premiumBrakes{
@@ -58,6 +52,7 @@
     margin-top:2%;
 }
 
+/* not using currently */
 .bookButton{
     padding: 5%;
     background-color: #000;
@@ -67,3 +62,26 @@
     cursor: pointer;
     margin-top: 5%;
 }
+
+@media (min-width:800px){
+    .brakesContainer{
+        display:grid;
+        grid-template-columns:repeat(2, 1fr);
+        justify-content: center;
+        align-items:start;
+    }
+    .standardBrakes, .premiumBrakes{
+        
+        width:30vw;
+        max-width:500px;
+        height:auto;
+        box-shadow: #000 0px 0px 50px;
+       
+    }
+    .backButton{
+        font-size:1.5rem;
+        border-radius: 10px;
+        padding:1%;
+    }
+}
+

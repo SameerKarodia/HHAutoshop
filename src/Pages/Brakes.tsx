@@ -42,7 +42,7 @@ function Brakes() {
             <h2>Premium Package</h2>
             <img src={brakes1} alt="brakes" />
 
-            <h5>Starting from $120</h5>
+            <h5>Starting from $150</h5>
             <ul>
               <li>Full rotor replacement (front and rear as needed)</li>
               <li>Brake pad replacement</li>

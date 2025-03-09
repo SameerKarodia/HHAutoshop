@@ -2,8 +2,9 @@
     margin-top:80px;
     padding:5%;
     background-color: #d9d9d9;
-
-
+}
+.detailingPage h1{
+    text-align:center;
 }
 .backButton{
     font-size:1.5rem;
@@ -19,7 +20,15 @@
     flex-direction:column;
     align-items:center;
 }
-
+.bronzeDetailing{
+    background-color: #AD8A56;
+}
+.silverDetailing{
+    background-color: #C0C0C0;
+}
+.goldDetailing{
+    background-color: #AF9500;
+}
 .bronzeDetailing, .silverDetailing, .goldDetailing{
     display:flex;
     flex-direction:column;
@@ -30,12 +39,8 @@
     padding:3%;
     width:100%;
     max-width:1000px;
-    background-color: #ededed;
     box-shadow: #000 0px 0px 50px;
-
-
     height:auto;
-
 
 }
 .bronzeDetailing img , .goldDetailing img {
@@ -51,6 +56,7 @@
 
 
 /* styling for booknow Button */
+/* not using right now */
 .bookButton{
     padding: 5%;
     background-color: #000;
@@ -67,4 +73,62 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 5%;
+}
+
+
+
+  
+  
+@media(min-width:8000px){
+    
+    .bronzeDetailing, .silverDetailing, .goldDetailing{
+        display:flex;
+        flex-direction:column;
+        /* align-items:center; */
+        margin-top:20px;
+        border:2px solid black;
+        border-radius:10px;
+        padding:3%;
+        width:50vw;
+        max-width:1000px;
+        background-color: #ededed;
+        box-shadow: #000 0px 0px 50px;
+        height:auto;
+    
+    }
+    .backButton{
+        font-size:1.5rem;
+        border-radius: 10px;
+        padding:1%;
+    }
+}
+
+/* testing column styling*/
+@media(min-width:800px){
+    .detailingContainer{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        align-items:center;
+        column-gap: 10px;
+        align-items:start;
+    }
+    .bronzeDetailing, .silverDetailing, .goldDetailing{
+        display:flex;
+        flex-direction:column;
+        /* align-items:center; */
+        margin-top:20px;
+        border:2px solid black;
+        border-radius:10px;
+        padding:3%;
+        width:30vw;
+        max-width:500px;
+        box-shadow: #000 0px 0px 50px;
+        height:auto;
+    
+    }
+    .backButton{
+        font-size:1.5rem;
+        border-radius: 10px;
+        padding:1%;
+    }
 }
