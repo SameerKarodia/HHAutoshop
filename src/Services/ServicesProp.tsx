@@ -1,15 +1,15 @@
 import styles from "./Services.module.css";
 import { Link } from "react-router-dom";
 import Iframe from "../Iframe";
+import BookingWidget from "../BookingWidget";
 
 interface ServicesPropProps {
   image: string;
   name: string;
   description: string;
   moreinfo: string;
-  url: string;
+  // url: string;
 }
-
 function ServicesProp(props: ServicesPropProps) {
   return (
     <div className={styles.cardBox}>
@@ -25,7 +25,8 @@ function ServicesProp(props: ServicesPropProps) {
         </Link>
 
         {/* <button className={styles.bookButton}>{props.booknow}</button> */}
-        <Iframe url={props.url} />
+        {/* <Iframe url={props.url} /> */}
+        <BookingWidget />
       </div>
     </div>
   );
