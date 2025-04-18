@@ -6,10 +6,12 @@ import Brakes from "./Pages/Brakes";
 import Lights from "./Pages/Lights";
 import Tuneups from "./Pages/Tuneups";
 import Oilchange from "./Pages/Oilchange";
+import ScrollToTop from "./ScrollToTop.tsx";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Detailing" element={<Detailing />} />

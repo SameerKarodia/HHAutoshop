@@ -3,7 +3,6 @@
     margin-top:80px;
     margin-bottom:10px;
     padding:5%;
-    height:100vh;
     background-color: #d9d9d9;
 }
 .lightsPage h1{
@@ -21,9 +20,8 @@
 .lightsContainer{
     display:flex;
     flex-direction:column;
-    /* align-items:center; */
+    align-items:center;
     margin-top:5px;
-    
     border:2px solid black;
     border-radius:10px;
     background-color: #ededed;
@@ -32,6 +30,7 @@
     max-width:1000px;
     height:auto;
     box-shadow: #000 0px 0px 25px;
+    
 
     
 }
@@ -48,4 +47,24 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 5%;
+}
+
+
+@media(min-width:800px){
+    .lightsContainer{
+        width:35vw;
+        max-width:500px;  
+        height:auto;
+        margin: 0 auto;  
+        margin-top:20px;
+        padding:3%;      
+    }
+    .backButton{
+        font-size:1.5rem;
+        border-radius: 10px;
+        padding:1%;
+    }
+    .lightsPage{
+        margin-top:40px;
+    }
 }

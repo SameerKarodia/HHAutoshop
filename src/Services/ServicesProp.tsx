@@ -1,6 +1,6 @@
 import styles from "./Services.module.css";
 import { Link } from "react-router-dom";
-import Iframe from "../Iframe";
+// import Iframe from "../Iframe";
 import BookingWidget from "../BookingWidget";
 
 interface ServicesPropProps {
