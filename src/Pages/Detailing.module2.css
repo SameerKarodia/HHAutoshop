@@ -1,11 +1,6 @@
-/* * {
-    outline: 1px solid red;
-  } */
-  
 .detailingPage{
-    
     margin-top:80px;
-    padding:5% 2%;
+    padding:5%;
     background-color: #d9d9d9;
 }
 .detailingPage h1{
@@ -24,39 +19,78 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    
 }
 
-.bronzeDetailing,.silverDetailing, .goldDetailing{
-    align-items:center;
+.bronzeDetailing, .silverDetailing, .goldDetailing{
+    display:flex;
+    flex-direction:column;
+    /* align-items:center; */
     margin-top:20px;
+    border:2px solid black;
+    border-radius:10px;
+    padding:3%;
     width:100%;
-    max-width:90vw;
+    max-width:1000px;
+    box-shadow: #000 0px 0px 50px;
     height:auto;
-}
- 
-.bronzeDetailing img, .silverDetailing img, .goldDetailing img {
-    width: 100%;
-    max-width: 100%; 
-    height: auto;
-    object-fit: contain;
-    display: block;
+    background-color: #ededed;
+
+
 }
 
-/* laptop view column styling*/
+.bronzeDetailing img , .goldDetailing img {
+    border:3px solid black;
+    margin-bottom:5%;
+    border-radius: 10px;
+}
+
+
+.interiorDetailing li, .exteriorDetailing li{
+    margin-top:5%;
+}
+
+
+/* styling for booknow Button */
+/* not using right now */
+.bookButton{
+    padding: 5%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.bookButtontest{
+    
+    padding: 5%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+
+/* testing column styling*/
 @media(min-width:800px){
     .detailingContainer{
         display:grid;
         grid-template-columns:1fr 1fr 1fr;
         align-items:center;
-        column-gap: 10px;
+        column-gap: 15px;
         align-items:start;
     }
     .bronzeDetailing, .silverDetailing, .goldDetailing{
+        display:flex;
+        flex-direction:column;
+        /* align-items:center; */
         margin-top:20px;
+        border:2px solid black;
+        border-radius:10px;
         padding:3%;
         width:30vw;
         max-width:500px;
+        box-shadow: #000 0px 0px 50px;
         height:auto;
     
     }
