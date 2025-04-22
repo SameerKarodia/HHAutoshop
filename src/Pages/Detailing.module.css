@@ -3,21 +3,24 @@
   } */
   
 .detailingPage{
-    
+    height:100vh;
     margin-top:80px;
     padding:5% 2%;
-    background-color: #d9d9d9;
+    background-color: #365966;
 }
 .detailingPage h1{
     text-align:center;
+    color:#e4ebed;
 }
 .backButton{
     font-size:1.5rem;
     border-radius: 10px;
+    border:3px solid #1f3f68;
     padding:2%;
+    background-color:#e4ebed;
 }
 .backLink{
-    color:#000;
+    color:#1f3f68;
     text-decoration:none;
 }
 .detailingContainer{

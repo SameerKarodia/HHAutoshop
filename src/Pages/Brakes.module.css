@@ -1,22 +1,28 @@
 
 .brakesPage{
-    
+    height:100vh;
     margin-top:80px;
     padding:5%;
-    background-color: #d9d9d9;
-
+    background-color: #365966;
     
 }
-.brakesPage h1, .brakesPage h6{
+.brakesPage h1{
     text-align:center;
+    color:#e4ebed;
+}
+.brakesPage h6{
+    text-align:center;
+    color:#e4ebed;
 }
 .backButton{
     font-size:1.5rem;
     border-radius: 10px;
+    border:3px solid #1f3f68;
     padding:2%;
+    background-color:#e4ebed;
 }
 .backLink{
-    color:#000;
+    color:#1f3f68;
     text-decoration:none;
 }
 .brakesContainer{
@@ -36,7 +42,7 @@
     width:100%;
     max-width:1000px;
     height:auto;
-    background-color: #ededed;
+    background-color: #e4ebed;
     box-shadow: #000 0px 0px 25px;
 
     

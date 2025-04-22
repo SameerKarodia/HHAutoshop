@@ -6,7 +6,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #3c5660;
+    background-color: #365966;
+    /* 1f3f68 */
+    /* 3c5660 */
+
+    /* F0F4F5 */
+    /* EDEBFA */
+    /* D9EAF2 */
+    /* EBF8FF */
 }
 .Info{
     display:flex;
@@ -16,4 +23,8 @@
 .Services{
     margin-top: 5vh;
     
+    
+}
+.footer{
+    background-color:#e4ebed;
 }

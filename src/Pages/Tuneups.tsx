@@ -2,7 +2,6 @@ import Header from "../Header/Header";
 import styles from "./Tuneups.module.css";
 import { Link } from "react-router-dom";
 import sparkplugsPic from "../assets/sparkplugsPic.png";
-import Iframe from "../Iframe";
 
 function Tuneups() {
   return (
@@ -31,7 +30,6 @@ function Tuneups() {
               <li>Air Filter Replacement</li>
               <li>Fuel Filter Replacement & Basic Maintenance</li>
             </ul>
-            <Iframe url="https://calendly.com/hhautoshop04/tuneups" />
           </div>
         </div>
       </div>

@@ -21,11 +21,11 @@ function ServicesProp(props: ServicesPropProps) {
         <h6>{props.description}</h6>
 
         <Link to={props.moreinfo}>
-          <h6>More Info</h6>
+          <h6 className={styles.linkTag}>More Info</h6>
         </Link>
 
         {/* <button className={styles.bookButton}>{props.booknow}</button> */}
-        {/* <Iframe url={props.url} /> */}
+
         <BookingWidget />
       </div>
     </div>

@@ -45,11 +45,11 @@ const BookingWidget: React.FC = () => {
           allow_switch_to_ada: 0,
           predefined: [],
         },
-        button_title: "Book now",
+        button_title: "Book Now",
         button_background_color: "#1f3f68",
         button_text_color: "#ffffff",
         button_position: "right",
-        button_position_offset: "50%",
+        button_position_offset: "40%",
         container_id: "sbw_7c4b8n",
       });
     };

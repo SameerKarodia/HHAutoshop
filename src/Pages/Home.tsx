@@ -17,6 +17,7 @@ function Home() {
       <div className={styles.Services}>
         <Services />
       </div>
+
       <div className={styles.Footer}>
         <Footer />
       </div>
