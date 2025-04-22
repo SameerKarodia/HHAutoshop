@@ -2,6 +2,7 @@ import Header from "../Header/Header";
 import styles from "./Tuneups.module.css";
 import { Link } from "react-router-dom";
 import sparkplugsPic from "../assets/sparkplugsPic.png";
+import BookingWidget from "../BookingWidget";
 
 function Tuneups() {
   return (
@@ -33,6 +34,7 @@ function Tuneups() {
           </div>
         </div>
       </div>
+      <BookingWidget />
     </div>
   );
 }

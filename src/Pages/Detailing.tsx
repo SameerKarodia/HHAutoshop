@@ -6,10 +6,10 @@ import Header from "../Header/Header";
 import interior10 from "../assets/interior10.jpg";
 import interior11 from "../assets/interior11.jpg";
 import interior12 from "../assets/interior12.jpg";
-
 import bronzeCard from "../assets/bronzeCard.png";
 import silverCard from "../assets/silvercard.png";
 import goldCard from "../assets/goldcard.png";
+import BookingWidget from "../BookingWidget";
 
 const INTERIOR = [interior10, interior11, interior12];
 <div className={slidestyles.imageSlider}>
@@ -42,6 +42,7 @@ function Detailing() {
           </div>
         </div>
       </div>
+      <BookingWidget />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import styles from "./Lights.module.css";
 import lights1 from "../assets/lights1.png";
 import lights2 from "../assets/lights2.png";
 import lights3 from "../assets/lights3.png";
+import BookingWidget from "../BookingWidget";
 
 const LIGHTS = [lights1, lights2, lights3];
 function Lights() {
@@ -33,6 +34,7 @@ function Lights() {
           </ul>
         </div>
       </div>
+      <BookingWidget />
     </div>
   );
 }

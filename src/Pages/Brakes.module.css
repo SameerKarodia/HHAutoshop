@@ -1,6 +1,6 @@
 
 .brakesPage{
-    height:100vh;
+    height:150vh;
     margin-top:80px;
     padding:5%;
     background-color: #365966;
@@ -70,6 +70,9 @@
 }
 
 @media (min-width:800px){
+    .brakesPage{
+        height:100vh;
+    }
     .brakesContainer {
         display: grid;
         grid-template-columns: repeat(2, auto);

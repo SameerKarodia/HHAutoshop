@@ -2,6 +2,7 @@ import Header from "../Header/Header";
 import styles from "./Oilchange.module.css";
 import { Link } from "react-router-dom";
 import bmwoilchangePic from "../assets/bmwoilchangePic.png";
+import BookingWidget from "../BookingWidget";
 
 function Oilchange() {
   return (
@@ -31,6 +32,7 @@ function Oilchange() {
           </div>
         </div>
       </div>
+      <BookingWidget />
     </div>
   );
 }

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import styles from "./Brakes.module.css";
 import brakes1 from "../assets/brakes1.png";
 import brakes2 from "../assets/brakes2.png";
+import BookingWidget from "../BookingWidget";
 
 const BRAKES = [brakes1, brakes2];
 <div className={slidestyles.imageSlider}>
@@ -50,6 +51,7 @@ function Brakes() {
           </div>
         </div>
       </div>
+      <BookingWidget />
     </div>
   );
 }
