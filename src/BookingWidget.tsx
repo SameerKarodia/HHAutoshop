@@ -16,7 +16,7 @@ const BookingWidget: React.FC = () => {
     script.onload = () => {
       new window.SimplybookWidget({
         widget_type: "button",
-        url: "https://hhautoshop.simplybook.me",
+        url: "https://hifzursautoshop.simplybook.me",
         theme: "default",
         theme_settings: {
           timeline_hide_unavailable: "1",

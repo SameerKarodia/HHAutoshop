@@ -72,7 +72,7 @@
 
 @media (min-width:800px){
     .brakesPage{
-        height:100vh;
+        height:140vh;
     }
     .brakesContainer {
         display: grid;

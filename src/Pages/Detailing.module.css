@@ -3,7 +3,7 @@
   } */
   
 .detailingPage{
-    height: 230vh;
+    height: 220vh;
     margin-top:80px;
     padding:5% 2%;
     background-color: #365966;
@@ -49,7 +49,7 @@
 /* laptop view column styling*/
 @media(min-width:800px){
     .detailingPage{
-        height:100vh;
+        height:120vh;
     }
     .detailingContainer{
         display:grid;
